@@ -1,0 +1,27 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "seanframe",
+  "compatibility_date": "2025-12-09",
+  "compatibility_flags": [
+    "disable_navigator_language",
+    "disallow_eval_during_startup",
+    "global_fetch_strictly_public"
+  ],
+  "logpush": false,
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 0,
+    "logs": {
+      "enabled": false,
+      "invocation_logs": false
+    }
+  },
+  "send_metrics": false,
+  "vars": {
+    "WRANGLER_SEND_METRICS": "false"
+  },
+  "assets": {
+    "directory": "./public/",
+    "binding": "ASSETS"
+  }
+}
