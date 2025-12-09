@@ -21,7 +21,6 @@
     "WRANGLER_SEND_METRICS": "false"
   },
   "assets": {
-    "directory": "./public/",
-    "binding": "ASSETS"
+    "directory": "./public/"
   }
 }
