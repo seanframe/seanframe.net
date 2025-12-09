@@ -1,0 +1,20 @@
+/*
+  Strict-Transport-Security : max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy : default-src 'none'; connect-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; base-uri 'none'; block-all-mixed-content; form-action 'none'; frame-ancestors 'none'; sandbox; upgrade-insecure-requests
+  X-Content-Type-Options : nosniff
+  Referrer-Policy : no-referrer
+  X-Frame-Options : DENY
+  X-XSS-Protection : 0
+  Permissions-Policy : accelerometer=(), ambient-light-sensor=(), attribution-reporting=(), autoplay=(), battery=(), bluetooth=(), browsing-topics=(), camera=(), clipboard-read=(), compute-pressure=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), gamepad=(), geolocation=(), gyroscope=(), hid=(), identity-credentials-get=(), idle-detection=(), interest-cohort=(), join-ad-interest-group=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-aggregation=(), private-state-token-issuance=(), private-state-token-redemption=(), publickey-credentials-create=(), publickey-credentials-get=(), run-ad-auction=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), speaker-selection=(), storage-access=(), top-level-storage-access=(), usb=(), sync-xhr=(), web-share=(), window-management=(), xr-spatial-tracking=()
+  Cross-Origin-Resource-Policy : same-origin
+  Cross-Origin-Embedder-Policy : require-corp
+  Cross-Origin-Opener-Policy : same-origin
+
+/*.xml
+  Content-Security-Policy : default-src 'none'; img-src 'self' data: https://www.w3.org/; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'none'
+
+/*.png
+  Cross-Origin-Resource-Policy : cross-origin
+
+/*.jpg
+  Cross-Origin-Resource-Policy : cross-origin
