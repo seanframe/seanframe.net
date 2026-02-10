@@ -1,0 +1,14 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:sean@seanframe.net
+Canonical: https://seanframe.net/.well-known/security.txt
+Encryption: https://seanframe.net/key.asc
+Preferred-Languages: en
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQXVtmZHu3bvj+IrSa74gj6yskUtAUCaYrPnAAKCRC74gj6yskU
+tJ8nAP9gpBIiG5HTJ/BiMzv0sNZ22V5vPgetb6s1Y35rgOVj5gD/YVxJu7Wun+4b
+KFLwLeY9vfY64xpqvbsVkp1OkGsAXgs=
+=5Sqy
+-----END PGP SIGNATURE-----
